@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Kerem Turer —<br />Senior Art Director
+              Kerem Turer —<br />Creative Director
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 font-light">
               Bridging AI, Cinematic Aesthetics, and B2B Brand Systems.
@@ -43,7 +43,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Alpha — Art Direction & AI</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz — Art Direction & AI</p>
             </div>
 
             {/* Video 2 */}
@@ -56,7 +56,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Beta — Concept & Execution</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Wisebowl — Concept & Execution</p>
             </div>
 
             {/* Video 3 */}
@@ -69,7 +69,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Gamma — Brand Identity</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Bambo co. — Brand Identity</p>
             </div>
 
             {/* Video 4 */}
@@ -82,7 +82,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Delta — AI Visuals</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Lumiere — AI Visuals</p>
             </div>
 
           </div>
