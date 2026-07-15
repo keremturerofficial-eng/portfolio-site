@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kerem Turer — Senior Art Director",
+  title: "Kerem Turer — Creative Director",
   description: "Bridging AI, Cinematic Aesthetics, and B2B Brand Systems.",
 };
 
