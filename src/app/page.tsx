@@ -50,26 +50,26 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/1Sz42ZPnRpw?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/l27aeWB48QU?controls=0&rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Wisebowl — Concept & Execution</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia — Concept & Execution</p>
             </div>
 
             {/* Video 3 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/x4rJj80ArvU?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/UJk3mAY8Ywk?controls=0&rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Bambo co. — Brand Identity</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Ioni Dental. — Brand Identity</p>
             </div>
 
             {/* Video 4 */}
