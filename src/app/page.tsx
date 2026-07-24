@@ -18,7 +18,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Kerem Turer —<br />Creative Director
+              Kerem Turer <br />Creative Director
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 font-light">
               Bridging AI and Cinematic Aesthetics.
