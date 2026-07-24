@@ -21,7 +21,7 @@ export default function Home() {
               Kerem Turer —<br />Creative Director
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 font-light">
-              Bridging AI, Cinematic Aesthetics, and B2B Brand Systems.
+              Bridging AI and Cinematic Aesthetics.
             </p>
           </div>
         </div>

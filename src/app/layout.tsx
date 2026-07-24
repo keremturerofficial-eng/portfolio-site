@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Kerem Turer — Creative Director",
-  description: "Bridging AI, Cinematic Aesthetics, and B2B Brand Systems.",
+  description: "Bridging AI, Cinematic Aesthetics.",
 };
 
 export default function RootLayout({
