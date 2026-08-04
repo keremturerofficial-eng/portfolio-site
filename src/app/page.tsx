@@ -10,7 +10,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full max-w-sm mx-auto md:mx-0 overflow-hidden">
             <Image
               src="/Kerem_Turer_shot.jpeg"
-              alt="Kerem Turer — AI Creative Director"
+              alt="Kerem Turer — Creative Director"
               fill
               className="object-cover grayscale contrast-110"
               priority
@@ -21,15 +21,13 @@ export default function Home() {
           {/* Text */}
           <div className="flex flex-col gap-5 md:gap-6 text-left">
             <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
-              AI Creative Director · Tonmeister
+              Creative Director
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.1]">
               Kerem Turer
             </h1>
             <p className="text-lg md:text-xl text-neutral-400 font-light leading-relaxed max-w-md">
               Bridging AI and cinematic aesthetics.
-              <br />
-              25+ years of sound, image and storytelling.
             </p>
           </div>
         </div>
