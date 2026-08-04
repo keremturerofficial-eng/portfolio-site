@@ -2,103 +2,161 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col bg-black">
-      
-      {/* 1. HERO BÖLÜMÜ */}
-      <section className="min-h-screen flex items-center justify-center px-8 md:px-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-7xl items-center">
-          <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
+    <main className="min-h-screen flex flex-col bg-black text-white">
+      {/* HERO */}
+      <section className="min-h-screen flex items-center justify-center px-6 md:px-16 lg:px-24 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 w-full max-w-6xl items-center">
+          {/* Photo */}
+          <div className="relative aspect-[4/5] w-full max-w-sm mx-auto md:mx-0 overflow-hidden">
             <Image
               src="/Kerem_Turer_shot.jpeg"
-              alt="Kerem Turer - AI Creative Director"
+              alt="Kerem Turer — AI Creative Director"
               fill
-              className="object-cover grayscale"
+              className="object-cover grayscale contrast-110"
               priority
+              sizes="(max-width: 768px) 100vw, 400px"
             />
           </div>
-          <div className="flex flex-col gap-6 text-left">
-            <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Kerem Turer <br />Creative Director
+
+          {/* Text */}
+          <div className="flex flex-col gap-5 md:gap-6 text-left">
+            <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
+              AI Creative Director · Tonmeister
+            </p>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight leading-[1.1]">
+              Kerem Turer
             </h1>
-            <p className="text-xl md:text-2xl text-gray-400 font-light">
-              Bridging AI and Cinematic Aesthetics.
+            <p className="text-lg md:text-xl text-neutral-400 font-light leading-relaxed max-w-md">
+              Bridging AI and cinematic aesthetics.
+              <br />
+              25+ years of sound, image and storytelling.
             </p>
           </div>
         </div>
       </section>
 
-      {/* 2. VIDEO SHOWCASE BÖLÜMÜ */}
-      <section className="py-32 px-8 md:px-24 border-t border-white/10">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Cinematic Brand Systems</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-            
-            {/* Video 1 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
+      {/* PROJECTS */}
+      <section className="py-24 md:py-32 px-6 md:px-16 lg:px-24 border-t border-white/8">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-14 md:mb-16">
+            <p className="text-xs uppercase tracking-[0.25em] text-neutral-500 mb-3">
+              Selected Work
+            </p>
+            <h2 className="text-2xl md:text-3xl font-medium tracking-tight text-neutral-100">
+              Cinematic Brand Systems
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
+            {/* Project 1 */}
+            <article className="group flex flex-col gap-4">
+              <div className="aspect-video w-full bg-neutral-900 relative overflow-hidden">
                 <iframe
                   src="https://www.youtube.com/embed/Gm7gy8_276M?controls=0&rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="absolute inset-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                  title="Project LuxHertz"
+                />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz — Art Direction & AI</p>
-            </div>
+              <div className="flex flex-col gap-1">
+                <h3 className="text-sm font-medium tracking-wide text-neutral-200 group-hover:text-white transition-colors">
+                  Project LuxHertz
+                </h3>
+                <p className="text-xs text-neutral-500 tracking-wide">
+                  Art Direction & AI
+                </p>
+              </div>
+            </article>
 
-            {/* Video 2 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
+            {/* Project 2 */}
+            <article className="group flex flex-col gap-4">
+              <div className="aspect-video w-full bg-neutral-900 relative overflow-hidden">
                 <iframe
                   src="https://www.youtube.com/embed/l27aeWB48QU?controls=0&rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="absolute inset-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                  title="Project Aelia"
+                />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia — Concept & Execution</p>
-            </div>
+              <div className="flex flex-col gap-1">
+                <h3 className="text-sm font-medium tracking-wide text-neutral-200 group-hover:text-white transition-colors">
+                  Project Aelia
+                </h3>
+                <p className="text-xs text-neutral-500 tracking-wide">
+                  Concept & Execution
+                </p>
+              </div>
+            </article>
 
-            {/* Video 3 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
+            {/* Project 3 */}
+            <article className="group flex flex-col gap-4">
+              <div className="aspect-video w-full bg-neutral-900 relative overflow-hidden">
                 <iframe
                   src="https://www.youtube.com/embed/UJk3mAY8Ywk?controls=0&rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="absolute inset-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                  title="Project Ioni Dental"
+                />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Ioni Dental. — Brand Identity</p>
-            </div>
+              <div className="flex flex-col gap-1">
+                <h3 className="text-sm font-medium tracking-wide text-neutral-200 group-hover:text-white transition-colors">
+                  Project Ioni Dental
+                </h3>
+                <p className="text-xs text-neutral-500 tracking-wide">
+                  Brand Identity
+                </p>
+              </div>
+            </article>
 
-            {/* Video 4 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
+            {/* Project 4 */}
+            <article className="group flex flex-col gap-4">
+              <div className="aspect-video w-full bg-neutral-900 relative overflow-hidden">
                 <iframe
                   src="https://www.youtube.com/embed/IvRoxI5jHIU?controls=0&rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
+                  className="absolute inset-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                ></iframe>
+                  title="Project Lumiere"
+                />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Lumiere — AI Visuals</p>
-            </div>
-
+              <div className="flex flex-col gap-1">
+                <h3 className="text-sm font-medium tracking-wide text-neutral-200 group-hover:text-white transition-colors">
+                  Project Lumiere
+                </h3>
+                <p className="text-xs text-neutral-500 tracking-wide">
+                  AI Visuals
+                </p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      {/* 3. İLETİŞİM BÖLÜMÜ */}
-      <section className="min-h-[50vh] flex items-center justify-center border-t border-white/10">
-        <a 
-          href="mailto:info@keremturer.com" 
-          className="text-4xl md:text-7xl font-bold tracking-tighter text-white/50 hover:text-white transition-colors duration-500"
-        >
-          info@keremturer.com
-        </a>
+      {/* CONTACT */}
+      <section className="py-20 md:py-28 px-6 border-t border-white/8">
+        <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-4">
+          <p className="text-xs uppercase tracking-[0.25em] text-neutral-500">
+            Get in touch
+          </p>
+          <a
+            href="mailto:info@keremturer.com"
+            className="text-base md:text-lg text-neutral-300 hover:text-white transition-colors duration-300 tracking-wide"
+          >
+            info@keremturer.com
+          </a>
+        </div>
       </section>
 
+      {/* FOOTER */}
+      <footer className="py-8 px-6 border-t border-white/5">
+        <div className="max-w-6xl mx-auto flex justify-between items-center text-xs text-neutral-600 tracking-wide">
+          <span>© {new Date().getFullYear()} Kerem Turer</span>
+          <span>Oanki Studio</span>
+        </div>
+      </footer>
     </main>
   );
 }
