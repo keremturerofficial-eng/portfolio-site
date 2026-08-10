@@ -43,7 +43,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz — Art Direction & AI</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Kinetiq — Art Direction & AI</p>
             </div>
 
             {/* Video 2 */}
@@ -82,7 +82,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Lumiere — AI Visuals</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz — AI Visuals</p>
             </div>
 
           </div>

@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Kerem Turer — Creative Director",
   description:
-    "AI Creative Director & Tonmeister. Bridging AI and cinematic aesthetics. 25+ years of sound, image and storytelling.",
+    "Bridging AI and cinematic aesthetics.",
 };
 
 export default function RootLayout({
