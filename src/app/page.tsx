@@ -43,7 +43,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Kinetiq — Art Direction & AI</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Kinetiq</p>
             </div>
 
             {/* Video 2 */}
@@ -56,20 +56,20 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia — Concept & Execution</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia</p>
             </div>
 
             {/* Video 3 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/UJk3mAY8Ywk?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/HfoKYkw8enM?controls=0&rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Ioni Dental. — Brand Identity</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwartzform</p>
             </div>
 
             {/* Video 4 */}
@@ -82,7 +82,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz — AI Visuals</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz</p>
             </div>
 
           </div>
