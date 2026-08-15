@@ -37,7 +37,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/xJXPRq-h6ns??controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/xJXPRq-h6ns?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -50,7 +50,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/l27aeWB48QU?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/l27aeWB48QU?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/EoCBk_BHHNU?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/EoCBk_BHHNU?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -76,7 +76,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/Gm7gy8_276M?controls=0&rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/Gm7gy8_276M?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
