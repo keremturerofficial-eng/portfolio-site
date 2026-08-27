@@ -50,39 +50,39 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/mfPxJq_ZToE?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/l27aeWB48QU?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia</p>
             </div>
 
             {/* Video 3 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/UJk3mAY8Ywk?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/v=AtRbkH86Kdo?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Ioni Dental</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwartzform</p>
             </div>
 
             {/* Video 4 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/uYUAf3oFdAM?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/Gm7gy8_276M?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Feather Airways</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project LuxHertz</p>
             </div>
 
           </div>
