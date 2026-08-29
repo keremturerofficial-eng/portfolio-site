@@ -63,13 +63,13 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <iframe
-                  src="https://www.youtube.com/embed/AtRbkH86Kdo?rel=0&modestbranding=1"
+                  src="https://www.youtube.com/embed/v=7tLL-UvEKvo?rel=0&modestbranding=1"
                   className="absolute top-0 left-0 w-full h-full"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwartzform</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Clear as Glass</p>
             </div>
 
             {/* Video 4 */}
