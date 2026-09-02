@@ -69,7 +69,7 @@ export default function Home() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">"Turn that light down music" video</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">"Turn that light down" music video</p>
             </div>
 
             {/* Video 4 */}
