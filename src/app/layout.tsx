@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kerem Turer — Creative Director",
+  title: "Kerem Turer — Creative Director - Writer",
   description:
-    "Bridging AI and cinematic aesthetics.",
+    "Bringing creative awareness to AI.",
 };
 
 export default function RootLayout({
