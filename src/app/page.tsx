@@ -10,7 +10,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
             <Image
               src="/Kerem_Turer_shot.jpeg"
-              alt="Kerem Turer - AI Creative Director"
+              alt="Kerem Turer - Creative Director - Writer"
               fill
               className="object-cover grayscale"
               priority
@@ -18,10 +18,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Kerem Turer <br />Creative Director
+              Kerem Turer <br />Creative Director - Writer
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 font-light">
-              Bridging AI and Cinematic Aesthetics.
+              Bringing creative awareness to AI
             </p>
           </div>
         </div>
