@@ -10,7 +10,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
             <Image
               src="/Kerem_Turer_shot.jpeg"
-              alt="Kerem Turer - Creative Director - Writer"
+              alt="Kerem Turer - Creative Director"
               fill
               className="object-cover grayscale"
               priority
