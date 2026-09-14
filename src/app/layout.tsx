@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kerem Turer — Creative Director - Writer",
+  title: "Kerem Turer — Creative Director",
   description:
     "Bringing creative awareness to AI.",
 };
