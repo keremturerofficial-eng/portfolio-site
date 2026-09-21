@@ -1,9 +1,10 @@
 import Image from "next/image";
+import VideoEmbed from "@/components/VideoEmbed";
 
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col bg-black">
-      
+
       {/* 1. HERO BÖLÜMÜ */}
       <section className="min-h-screen flex items-center justify-center px-8 md:px-24">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-7xl items-center">
@@ -32,16 +33,15 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Cinematic Brand Systems</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-            
+
             {/* Video 1 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
-                <iframe
-                  src="https://www.youtube.com/embed/pPdUxPD_LyY?rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <VideoEmbed
+                  videoId="pPdUxPD_LyY"
+                  title="Project Kinetiq"
+                  poster="/thumbnails/kinetiq.jpg"
+                />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Kinetiq</p>
             </div>
@@ -49,12 +49,11 @@ export default function Home() {
             {/* Video 2 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
-                <iframe
-                  src="https://www.youtube.com/embed/mfPxJq_ZToE?rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <VideoEmbed
+                  videoId="mfPxJq_ZToE"
+                  title="Project Schneetraum Eis"
+                  poster="/thumbnails/schneetraum-eis.jpg"
+                />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
             </div>
@@ -62,25 +61,23 @@ export default function Home() {
             {/* Video 3 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
-                <iframe
-                  src="https://www.youtube.com/embed/MdvbbFcIFwk?rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <VideoEmbed
+                  videoId="MdvbbFcIFwk"
+                  title="Project Uruo Winery"
+                  poster="/thumbnails/uruo-winery.jpg"
+                />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">"Project URUO Winery</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Uruo Winery</p>
             </div>
 
             {/* Video 4 */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
-                <iframe
-                  src="https://www.youtube.com/embed/BCfZ0Lom5a4?rel=0&modestbranding=1"
-                  className="absolute top-0 left-0 w-full h-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+                <VideoEmbed
+                  videoId="BCfZ0Lom5a4"
+                  title="Project Yuvora"
+                  poster="/thumbnails/yuvora.jpg"
+                />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Yuvora</p>
             </div>
@@ -91,8 +88,8 @@ export default function Home() {
 
       {/* 3. İLETİŞİM BÖLÜMÜ */}
       <section className="min-h-[50vh] flex items-center justify-center border-t border-white/10">
-        <a 
-          href="mailto:info@keremturer.com" 
+        <a
+          href="mailto:info@keremturer.com"
           className="text-4xl md:text-7xl font-bold tracking-tighter text-white/50 hover:text-white transition-colors duration-500"
         >
           info@keremturer.com
