@@ -40,7 +40,7 @@ export default function Home() {
                 <VideoEmbed
                   videoId="pPdUxPD_LyY"
                   title="Project Kinetiq"
-                  poster="/thumbnails/kinetiq.jpg"
+                  poster="/thumbnails/kinetiq.png"
                 />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Kinetiq</p>
@@ -52,7 +52,7 @@ export default function Home() {
                 <VideoEmbed
                   videoId="mfPxJq_ZToE"
                   title="Project Schneetraum Eis"
-                  poster="/thumbnails/schneetraum-eis.jpg"
+                  poster="/thumbnails/schneetraum-eis.jpeg"
                 />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
@@ -64,7 +64,7 @@ export default function Home() {
                 <VideoEmbed
                   videoId="MdvbbFcIFwk"
                   title="Project Uruo Winery"
-                  poster="/thumbnails/uruo-winery.jpg"
+                  poster="/thumbnails/uruo-winery.png"
                 />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Uruo Winery</p>
@@ -74,12 +74,12 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="BCfZ0Lom5a4"
-                  title="Project Yuvora"
-                  poster="/thumbnails/yuvora.jpg"
+                  videoId="ztKb8-L07go"
+                  title="Project Arctic Leviathan"
+                  poster="/thumbnails/Arctic_Leviathan.jpeg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Yuvora</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Arctic Leviathan</p>
             </div>
 
           </div>
