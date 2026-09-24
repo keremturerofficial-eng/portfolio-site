@@ -38,12 +38,12 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="AtRbkH86Kdo"
-                  title="Project Schwarzform"
-                  poster="/thumbnails/schwarzform.png"
+                  videoId="f30uKTR3T1Y"
+                  title="Turn that light down music video"
+                  poster="/thumbnails/turn_tuhumb.jpeg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwarzform</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Turn that light down music video</p>
             </div>
 
             {/* Video 2 */}
