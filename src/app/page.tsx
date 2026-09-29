@@ -81,6 +81,30 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Arctic Leviathan</p>
             </div>
+			
+			{/* Video 5 */}
+            <div className="flex flex-col gap-4">
+              <div className="aspect-video w-full bg-white/5 relative">
+                <VideoEmbed
+                  videoId="7tLL-UvEKvo"
+                  title="Clear as Glass music video"
+                  poster="/thumbnails/Clear.jpeg"
+                />
+              </div>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Clear as Glass music video</p>
+            </div>
+			
+			{/* Video 6 */}
+            <div className="flex flex-col gap-4">
+              <div className="aspect-video w-full bg-white/5 relative">
+                <VideoEmbed
+                  videoId="BBQ7N7AG0j0"
+                  title="Audiovisual Interpretation for the track " Diving" (from the album "A-in") "
+                  poster="/thumbnails/Diving.jpeg"
+                />
+              </div>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Clear as Glass music video</p>
+            </div>
 
           </div>
         </div>
