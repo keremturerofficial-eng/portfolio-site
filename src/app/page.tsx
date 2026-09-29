@@ -31,7 +31,7 @@ export default function Home() {
       {/* 2. VIDEO SHOWCASE BÖLÜMÜ */}
       <section className="py-32 px-8 md:px-24 border-t border-white/10">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Cinematic Brand Systems</h2>
+          <h2 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Portfolio</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 
             {/* Video 1 */}
