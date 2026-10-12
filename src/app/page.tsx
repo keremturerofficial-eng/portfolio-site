@@ -39,11 +39,11 @@ export default function Home() {
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
                   videoId="f30uKTR3T1Y"
-                  title="Turn that light down music video"
-                  poster="/thumbnails/turn_tuhumb.jpeg"
+                  title="Project Nilara"
+                  poster="/thumbnails/Nilara.jpg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Turn that light down music video</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Nilara</p>
             </div>
 
             {/* Video 2 */}
