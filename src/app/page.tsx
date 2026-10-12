@@ -38,7 +38,7 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="f30uKTR3T1Y"
+                  videoId="4rGEDkHdDDw"
                   title="Project Nilara"
                   poster="/thumbnails/Nilara.jpg"
                 />
