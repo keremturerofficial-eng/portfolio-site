@@ -20,6 +20,23 @@ export default function SpecialProjects() {
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Arctic Leviathan</p>
             </div>
 
+            {/* Arctic Leviathan - Proof of Concept */}
+            <div className="flex flex-col gap-4">
+              <a
+                href="https://drive.google.com/file/d/1f0OTMRYM3-q5XAfC53Va9yUBa24bKoQ9/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group aspect-video w-full bg-white/5 relative flex items-center justify-center border border-white/10 hover:border-white/40 transition-colors duration-300"
+              >
+                <span className="px-6 text-center text-lg md:text-xl font-light tracking-wide text-gray-300 transition-colors duration-300 group-hover:text-white">
+                  Arctic Leviathan <br /> Proof of Concept
+                </span>
+              </a>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">
+                Arctic Leviathan &mdash; Proof of Concept (PDF)
+              </p>
+            </div>
+
             {/* Life Engine white paper */}
             <div className="flex flex-col gap-4">
               <a

@@ -92,6 +92,12 @@ export default function Home() {
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
                 Pure form. Pure black. Berlin aesthetic.
               </p>
+              <p className="text-sm text-gray-500 leading-relaxed max-w-md">
+                Latex apparel is the very definition of passion. Modern design meets superior craftsmanship and innovative materials&mdash;blending sustainability and comfort&mdash;brought to life through choreography performed by our dancers in an underground Berlin nightclub. Each piece is crafted with meticulous care, patience, and a keen eye for aesthetics.
+              </p>
+              <p className="text-sm text-gray-500 leading-relaxed max-w-md">
+                Oanki Studio approaches every subject it tackles as the creation of a unique world. We do not view our products merely as merchandise; we consider the psychology of everyone involved in the journey from production to consumption. Lifestyle is the core concept behind Oanki Studio; our creations emerge from deep research, thorough analysis, and an unwavering commitment to aesthetics.
+              </p>
             </div>
 
           </div>
