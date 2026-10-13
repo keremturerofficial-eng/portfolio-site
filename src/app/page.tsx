@@ -1,5 +1,4 @@
 import Image from "next/image";
-import VideoEmbed from "@/components/VideoEmbed";
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
             <Image
               src="/Kerem_Turer_shot.jpeg"
-              alt="Kerem Turer - Concept Architect & Visionary Director"
+              alt="Kerem Turer - AI Creative Director & Concept Architect"
               fill
               className="object-cover grayscale"
               priority
@@ -19,7 +18,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 text-left">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-              Kerem Turer <br />Concept Architect & Visionary Director
+              Kerem Turer <br />AI Creative Director & Concept Architect
             </h1>
             <p className="text-xl md:text-2xl text-gray-400 font-light">
               Bringing creative awareness to AI
@@ -28,91 +27,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. VIDEO SHOWCASE BÖLÜMÜ */}
-      <section className="py-32 px-8 md:px-24 border-t border-white/10">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Portfolio</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-
-            {/* Video 1 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="4rGEDkHdDDw"
-                  title="Project Nilara"
-                  poster="/thumbnails/Nilara.jpg"
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Nilara</p>
-            </div>
-
-            {/* Video 2 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="mfPxJq_ZToE"
-                  title="Project Schneetraum Eis"
-                  poster="/thumbnails/schneetraum-eis.jpeg"
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
-            </div>
-
-            {/* Video 3 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="MdvbbFcIFwk"
-                  title="Project Uruo Winery"
-                  poster="/thumbnails/uruo-winery.png"
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Uruo Winery</p>
-            </div>
-
-            {/* Video 4 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="ztKb8-L07go"
-                  title="Project Arctic Leviathan"
-                  poster="/thumbnails/Arctic_Leviathan.jpeg"
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Arctic Leviathan</p>
-            </div>
-			
-			{/* Video 5 */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="7tLL-UvEKvo"
-                  title="Clear as Glass music video"
-                  poster="/thumbnails/Clear.jpeg"
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Clear as Glass music video</p>
-            </div>
-			
-            {/* Video 6 */}
-            <div className="flex flex-col gap-4">
-             <div className="aspect-video w-full bg-white/5 relative">
-              <VideoEmbed
-                videoId="BBQ7N7AG0j0"
-                title={'Audiovisual Interpretation for the track "Diving" (from the album "A-in")'}
-                poster="/thumbnails/Diving.jpeg"
-              />
-            </div>
-            <p className="text-sm text-gray-400 uppercase tracking-widest">
-            Audiovisual Interpretation for the track "Diving" (from the album "A-in")
-            </p>
-          </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* 3. İLETİŞİM BÖLÜMÜ */}
+      {/* 2. İLETİŞİM BÖLÜMÜ */}
       <section className="min-h-[50vh] flex items-center justify-center border-t border-white/10">
         <a
           href="mailto:info@keremturer.com"

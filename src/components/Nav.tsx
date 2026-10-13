@@ -6,9 +6,17 @@ export default function Nav() {
       <Link href="/" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
         Kerem Türer
       </Link>
-      <Link href="/thinking" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
-        Thinking
-      </Link>
+      <div className="flex items-center gap-6 md:gap-10">
+        <Link href="/work" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
+          Work
+        </Link>
+        <Link href="/music-videos" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
+          Music Videos
+        </Link>
+        <Link href="/special-projects" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
+          Special Projects
+        </Link>
+      </div>
     </nav>
   );
 }
