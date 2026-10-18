@@ -38,16 +38,14 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="f30uKTR3T1Y"
-                  title="Turn that light down"
-                  poster="/thumbnails/turn_tuhumbe.jpeg"
+                  videoId="l27aeWB48QU"
+                  title="Project Aelia"
+                  poster="/thumbnails/Aelia.jpeg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Turn that light down music video</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aeliao</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                "Turn That Light Down" is a satirical narrative that examines the alienation we build with our own hands, and the fallacy of endlessly attributing our existential crises to external causes. 
-
-                 This mental pilgrimage toward the ruins of a lost utopia embodies the inevitable road to Atlantis: an uncanny transformation in which the organic self is sacrificed, giving way to sterile simulations and mechanical shells.
+                "Project Aelia" A high-budget luxury fashion film concept produced with 100% AI integration, completely eliminating the physical limitations and logistical costs of traditional production. The texture of Arizona sandstone canyons and the fluidity of silk are synthesized digitally with zero carbon footprint and zero site risk. 
               </p>
             </div>
 
