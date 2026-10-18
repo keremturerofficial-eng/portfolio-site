@@ -39,13 +39,15 @@ export default function Home() {
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
                   videoId="f30uKTR3T1Y"
-                  title="Turn that light down music video"
+                  title="Turn that light down"
                   poster="/thumbnails/turn_tuhumbe.jpeg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Nilara</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Turn that light down music video</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                Set along the pristine shores of Egypt&apos;s North Coast (Sahel), NILARA redefines modern coastal architecture through timeless Mediterranean minimalism, authentic natural textures, and a quiet luxury lifestyle. Designed not merely as a summer getaway, but as a home for every chapter&mdash;blending tranquil private villa living, world-class marina lifestyle, and seamless coastal hospitality.
+                "Turn That Light Down" is a satirical narrative that examines the alienation we build with our own hands, and the fallacy of endlessly attributing our existential crises to external causes. 
+
+                 This mental pilgrimage toward the ruins of a lost utopia embodies the inevitable road to Atlantis: an uncanny transformation in which the organic self is sacrificed, giving way to sterile simulations and mechanical shells.
               </p>
             </div>
 
