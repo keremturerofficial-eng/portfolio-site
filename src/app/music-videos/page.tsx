@@ -20,17 +20,18 @@ export default function MusicVideos() {
               <p className="text-sm text-gray-400 uppercase tracking-widest">Turn That Light Down</p>
             </div>
 
-            {/* Diving */}
+            {/* Clear as Glass */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="BBQ7N7AG0j0"
-                  title={'Audiovisual Interpretation for the track "Diving" (from the album "A-in")'}
-                  poster="/thumbnails/Diving.jpeg"
+                  videoId="7tLL-UvEKvo"
+                  title={'Audiovisual Interpretation for the track "Clear as Glass" (from the album "A-in")'}
+                  poster="/thumbnails/Clear.jpeg"
                 />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">
-                Audiovisual Interpretation for the track &quot;Diving&quot; (from the album &quot;A-in&quot;)
+                
+              Clear as Glass is Oanki Studio's debut music video — built entirely through AI-assisted filmmaking, texture by texture: ice, salt, glass, water, light.
               </p>
             </div>
 
