@@ -43,7 +43,7 @@ export default function Home() {
                   poster="/thumbnails/Aelia.jpeg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aeliao</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
                 "Project Aelia" A high-budget luxury fashion film concept produced with 100% AI integration, completely eliminating the physical limitations and logistical costs of traditional production. The texture of Arizona sandstone canyons and the fluidity of silk are synthesized digitally with zero carbon footprint and zero site risk. 
               </p>
