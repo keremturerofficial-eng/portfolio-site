@@ -31,7 +31,7 @@ export default function MusicVideos() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">
                 
-              Clear as Glass is Oanki Studio's debut music video — built entirely through AI-assisted filmmaking, texture by texture: ice, salt, glass, water, light.
+              Clear as Glass 
               </p>
             </div>
 
