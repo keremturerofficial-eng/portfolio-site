@@ -13,7 +13,7 @@ export default function Home() {
               src="/Kerem_Turer_shot.png"
               alt="Kerem Turer - AI Creative Director & Concept Architect"
               fill
-              className="object-cover grayscale"
+              className="object-cover"
               priority
             />
           </div>
