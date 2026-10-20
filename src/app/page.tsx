@@ -60,7 +60,7 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                This mockumentary commercial tells the story of Helmer Schneider and the accidental creation of Schneetraum Eis. Designed by Oanki Studio, this project serves as an end-to-end Creative AI case study demonstrating high-level visual, character, and audio continuity for broadcast standards.
+                This mockumentary commercial tells the story of Helmer Schneider and the accidental creation of Schneetraum Eis. 
               </p>
             </div>
 
@@ -90,7 +90,6 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwarzform</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                Pure form. Pure black. Berlin aesthetic.
               </p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
                 Oanki Studio approaches every subject it tackles as the creation of a unique world. We do not view our products merely as merchandise; we consider the psychology of everyone involved in the journey from production to consumption. Lifestyle is the core concept behind Oanki Studio; our creations emerge from deep research, thorough analysis, and an unwavering commitment to aesthetics.
