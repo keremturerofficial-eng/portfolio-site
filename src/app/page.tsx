@@ -11,7 +11,7 @@ export default function Home() {
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
             <Image
               src="/Kerem_Turer_shot.png"
-              alt="Kerem Turer - AI Creative Director & Concept Architect"
+              alt="Kerem Turer - Creative Director & Concept Architect"
               fill
               className="object-cover"
               priority
