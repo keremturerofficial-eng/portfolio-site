@@ -10,7 +10,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-7xl items-center">
           <div className="relative aspect-[4/5] w-full max-w-md mx-auto md:mx-0">
             <Image
-              src="/Kerem_Turer_shot.jpeg"
+              src="/Kerem_Turer_shot.png"
               alt="Kerem Turer - AI Creative Director & Concept Architect"
               fill
               className="object-cover grayscale"
