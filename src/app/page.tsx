@@ -38,14 +38,14 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="l27aeWB48QU"
-                  title="Project Aelia"
-                  poster="/thumbnails/Aelia.jpeg"
+                  videoId="dx3TV1QQ-2Q"
+                  title="Project Nilara"
+                  poster="/thumbnails/Nilara.jpg"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Aelia</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Nilara</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                "Project Aelia" A high-budget luxury fashion film concept produced with 100% AI integration, completely eliminating the physical limitations and logistical costs of traditional production. The texture of Arizona sandstone canyons and the fluidity of silk are synthesized digitally with zero carbon footprint and zero site risk. 
+                "Project Nilara" A conceptual social-first commercial created for NILARA, a fictional ultra-luxury residential compound located on the Mediterranean North Coast.
               </p>
             </div>
 
