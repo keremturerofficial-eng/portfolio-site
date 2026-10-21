@@ -13,7 +13,7 @@ export default function MusicVideos() {
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
                   videoId="7tLL-UvEKvo"
-                  title={'Clear as Glass is Oanki Studio's debut music video'}
+                  title="Clear as Glass is Oanki Studio's debut music video"
                   poster="/thumbnails/Clear.jpeg"
                 />
               </div>
@@ -25,8 +25,9 @@ export default function MusicVideos() {
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
                   videoId="BBQ7N7AG0j0"
-                  title={'An audiovisual experiment for the track "Diving" from Kerem Türer's first  album "a-in".'}
+                  title={`An audiovisual experiment for the track "Diving" from Kerem Türer's first album "a-in".`}
                   poster="/thumbnails/Diving.jpeg"
+                />
                 />
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">
