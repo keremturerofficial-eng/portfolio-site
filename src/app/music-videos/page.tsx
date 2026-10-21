@@ -20,21 +20,17 @@ export default function MusicVideos() {
               <p className="text-sm text-gray-400 uppercase tracking-widest">Clear as Glass</p>
             </div>
 
-            {/* Diving  */}
-            <div className="flex flex-col gap-4">
-              <div className="aspect-video w-full bg-white/5 relative">
-                <VideoEmbed
-                  videoId="BBQ7N7AG0j0"
-                  title={`An audiovisual experiment for the track "Diving" from Kerem Türer's first album "a-in".`}
-                  poster="/thumbnails/Diving.jpeg"
-                />
-                />
-              </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">
-                
-              Diving 
-              </p>
-            </div>
+            {/* Diving */}
+<div className="flex flex-col gap-4">
+  <div className="aspect-video w-full bg-white/5 relative">
+    <VideoEmbed
+      videoId="BBQ7N7AG0j0"
+      title={`An audiovisual experiment for the track "Diving" from Kerem Türer's first album "a-in".`}
+      poster="/thumbnails/Diving.jpeg"
+    />
+  </div>
+  <p className="text-sm text-gray-400 uppercase tracking-widest">Diving</p>
+</div>
 
           </div>
         </div>
