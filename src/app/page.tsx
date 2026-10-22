@@ -24,6 +24,11 @@ export default function Home() {
             <p className="text-xl md:text-2xl text-gray-400 font-light">
               Bringing creative awareness to AI
             </p>
+            <nav aria-label="Links" className="flex flex-wrap gap-x-8 gap-y-3 text-sm uppercase tracking-widest text-gray-400">
+              <a href="https://www.youtube.com/@oankistudio" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Portfolio</a>
+              <a href="https://www.linkedin.com/in/oankistudio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+              <a href="https://keremturer.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">O Anki Newsletter</a>
+            </nav>
           </div>
         </div>
       </section>
@@ -60,7 +65,7 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schneetraum Eis</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-                This mockumentary commercial tells the story of Helmer Schneider and the accidental creation of Schneetraum Eis. 
+                This mockumentary commercial tells the story of Helmer Schneider and the accidental creation of Schneetraum Eis.
               </p>
             </div>
 
@@ -90,8 +95,6 @@ export default function Home() {
               </div>
               <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwarzform</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
-              </p>
-              <p className="text-sm text-gray-500 leading-relaxed max-w-md">
                 Oanki Studio approaches every subject it tackles as the creation of a unique world. We do not view our products merely as merchandise; we consider the psychology of everyone involved in the journey from production to consumption. Lifestyle is the core concept behind Oanki Studio; our creations emerge from deep research, thorough analysis, and an unwavering commitment to aesthetics.
               </p>
             </div>
@@ -101,13 +104,18 @@ export default function Home() {
       </section>
 
       {/* 3. İLETİŞİM BÖLÜMÜ */}
-      <section className="min-h-[50vh] flex items-center justify-center border-t border-white/10">
+      <section className="min-h-[50vh] flex flex-col items-center justify-center gap-12 border-t border-white/10 px-8">
         <a
           href="mailto:info@keremturer.com"
           className="text-4xl md:text-7xl font-bold tracking-tighter text-white/50 hover:text-white transition-colors duration-500"
         >
           info@keremturer.com
         </a>
+        <nav aria-label="Links" className="flex flex-wrap justify-center gap-x-8 gap-y-3 text-sm uppercase tracking-widest text-gray-400">
+          <a href="https://www.youtube.com/@oankistudio" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Portfolio</a>
+          <a href="https://www.linkedin.com/in/oankistudio/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://keremturer.substack.com/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">O Anki Newsletter</a>
+        </nav>
       </section>
 
     </main>
