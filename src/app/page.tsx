@@ -84,16 +84,16 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Schwarzform */}
+            {/* Olea Golf Resort */}
             <div className="flex flex-col gap-4">
               <div className="aspect-video w-full bg-white/5 relative">
                 <VideoEmbed
-                  videoId="AtRbkH86Kdo"
-                  title="Project Schwarzform"
-                  poster="/thumbnails/schwarzform.png"
+                  videoId="3yWz0-Wr6VQ"
+                  title="Project Olea"
+                  poster="/thumbnails/thumb.png"
                 />
               </div>
-              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Schwarzform</p>
+              <p className="text-sm text-gray-400 uppercase tracking-widest">Project Olea Golf Resort</p>
               <p className="text-sm text-gray-500 leading-relaxed max-w-md">
                 Oanki Studio approaches every subject it tackles as the creation of a unique world. We do not view our products merely as merchandise; we consider the psychology of everyone involved in the journey from production to consumption. Lifestyle is the core concept behind Oanki Studio; our creations emerge from deep research, thorough analysis, and an unwavering commitment to aesthetics.
               </p>
