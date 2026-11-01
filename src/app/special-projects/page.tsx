@@ -23,7 +23,7 @@ export default function SpecialProjects() {
             {/* Arctic Leviathan - Proof of Concept */}
             <div className="flex flex-col gap-4">
               <a
-                href="https://drive.google.com/file/d/1f0OTMRYM3-q5XAfC53Va9yUBa24bKoQ9/view?usp=sharing"
+                href="https://drive.google.com/file/d/12r21IHtb6wdtsSZRna1YtskaZ1ouKFzK/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group aspect-video w-full bg-white/5 relative flex items-center justify-center border border-white/10 hover:border-white/40 transition-colors duration-300"
