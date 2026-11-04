@@ -5,7 +5,7 @@ export default function SpecialProjects() {
     <main className="min-h-screen flex flex-col bg-black pt-32">
       <section className="py-16 px-8 md:px-24">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Special Projects</h1>
+          <h1 className="text-3xl font-light mb-16 tracking-wide text-gray-200">Personal Files</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 
             {/* Arctic Leviathan */}
