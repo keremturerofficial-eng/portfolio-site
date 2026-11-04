@@ -11,7 +11,7 @@ export default function Nav() {
           Music Videos
         </Link>
         <Link href="/special-projects" className="text-sm uppercase tracking-widest text-white/60 hover:text-white transition-colors duration-300">
-          Special Projects
+          Personal Files
         </Link>
       </div>
     </nav>
